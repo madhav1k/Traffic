@@ -1,7 +1,6 @@
 # Traffic
  Traffic signs recognition AI model. Uses German Traffic Sign Recognition Benchmark (GTSRB) dataset.
 
-
 •	AI to identify which traffic sign appears in a photograph built with Python, OpenCV, TensorFlow, Keras (TensorFlow), Scikit-learn, NumPy, and more.
 
 •	Used OpenCV to read & resize images from GTSRB (German Traffic Sign Recognition Benchmark) dataset before feeding it to CNN (Convolutional Neural Network) for training.
