@@ -56,7 +56,7 @@ def load_data(data_dir):
     of the images in the data directory, where each image is formatted as a
     numpy ndarray with dimensions IMG_WIDTH x IMG_HEIGHT x 3. `labels` should
     be a list of integer labels, representing the categories for each of the
-    corresponding `images`.
+    corresponding image in `images`.
     """
     # raise NotImplementedError
     images = []

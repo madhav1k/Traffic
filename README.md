@@ -17,6 +17,6 @@ I then adjusted the number of neurons, increasing from 128 to 256, which improve
 
 Next, a second convolutional and max-pooling layer was added, boosting accuracy to 97.6%. Using 64 filters instead of 32 filters marginally increased accuracy to 97.9%, but computation time again doubled.
 
-The final model, with 256 neurons, two convolutional layers (64 filters each), two max-pooling layers, and a 10% dropout rate, yielded similar performance to a simpler version with 32 filters and 128 neurons but with much slower training.
+The final model, with 256 neurons, two convolutional layers (32 filters each), two max-pooling layers, and a 10% dropout rate, yielded similar performance to a simpler version with 32 filters and 128 neurons but with much slower training.
 
 <img width="1200" alt="image" src="https://github.com/user-attachments/assets/45d0026f-8ce9-4d44-bf40-2c49ebce789b" />
