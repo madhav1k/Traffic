@@ -13,6 +13,8 @@
 
 <img width="1200" alt="image" src="https://github.com/user-attachments/assets/45d0026f-8ce9-4d44-bf40-2c49ebce789b" />
 
+<br>
+
 I initially replicated a model with the following architecture: a 2D convolutional layer with 32 filters, a max-pooling layer, a flattening layer, a dense layer with 128 neurons, and a dropout layer at 50%. This resulted in only 5.3% accuracy. Reducing dropout to 30% dramatically improved accuracy to 92%, with further reductions leading to 94.6% accuracy at 5% dropout. However, overfitting occurred at this point.
 
 I then adjusted the number of neurons, increasing from 128 to 256, which improved accuracy slightly but doubled the computation time. Experiments with two dense layers (128 neurons each) reduced performance to 82.5%.
